@@ -1,8 +1,18 @@
 spring:
   datasource: 
-    url: jdbc:postgresql://localhost:5432/lacasolana
-    username: lacasolana
-    password: pqntslc
+    url: jdbc:postgresql://178.128.153.89:5432/lacasolana
+    username: postgres
+    password: luis1994
     platform: postgresql
 server:
    contextPath: /productos-lacasolana
+   
+   
+   #    spring:
+#  datasource: 
+#    url: jdbc:postgresql://localhost:5432/lacasolana
+#    username: lacasolana
+#    password: pqntslc
+#    platform: postgresql
+#server:
+#   contextPath: /productos-lacasolana
